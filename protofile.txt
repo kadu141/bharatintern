@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Portfolio</title>
+    
+</head>
+<body>
+    <style>
+        /* Reset some default styles */
+    body {
+  background-color: #b87b4ccb;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #e3dbdb;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Style sections */
+section {
+    padding: 1rem;
+}
+
+section h2 {
+    background-color: rgb(47, 255, 0);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Style the portfolio projects */
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Style the social media links */
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #342fcee5;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+    </style>
+    <header>
+        <h1>TEJA KRISHNA C</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="about":>
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate web developer and designer with a love for creating beautiful and functional websites.
+            <br>I have experience in HTML, CSS,and JavaScript. 
+            <br>My goal is to make the web a better place, one project at a time.
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h2>Project</h2>
+            
+            <h3>Parallel Reality</h3>
+            <p>A "parallel reality screen" is a concept that refers to a display technology or system that aims to provide personalized and individualized content to multiple viewers or users simultaneously. It's designed to create separate, distinct viewing experiences for different individuals, all from a single screen or display. Here's a more detailed description of what a parallel reality screen might entail:
+
+                 <br><b>1. Personalized Viewing:</b><br> The primary goal of a parallel reality screen is to deliver tailored content to each viewer. This means that when multiple people are looking at the same screen, they will see different images, videos, or information based on their preferences and profiles.
+                
+                 <br><b>2. Advanced Tracking:</b><br> To achieve this personalization, the screen typically employs advanced tracking technologies, such as facial recognition, eye tracking, or wearable devices. These technologies identify each viewer and adjust the displayed content in real-time.
+                
+                 <br><b>3. Multi-User Experience:</b><br> Parallel reality screens are designed for multi-user scenarios, such as public displays, entertainment venues, or collaborative work environments. They allow multiple people to share the same physical space while experiencing different content.
+                
+                <br><b>4. Privacy Considerations:</b><br> Privacy is a crucial aspect of parallel reality screens. Viewers must have control over what information is tracked and displayed to them. These systems should also ensure that sensitive or private information is not visible to unintended viewers.
+                
+              
+                In summary, a parallel reality screen is a display technology that aims to provide personalized and individualized content to multiple viewers simultaneously by using advanced tracking and rendering techniques. It has the potential to revolutionize how people interact with screens in various settings, offering tailored experiences for each individual.</p>
+        </div>
+        
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to reach out to me. 
+        </p>
+        <p>
+            You can email me at <a href="teja22105.it@rmkec.ac.in">teja22105.it@rmkec.ac.in</a> or connect with me on social media:
+        </p>
+        <ul class="social-links">
+            <li><a href="https://twitter.com/yourtwitter" target="_blank">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Portfolio</p>
+    </footer>
+</body>
+</html>
